@@ -1,0 +1,53 @@
+/* Footer */
+footer {
+  background-color: var(--color-secundario);
+  color: var(--color-blanco);
+  text-align: center;
+  padding: 30px 20px;
+}
+
+footer p {
+  margin: 5px 0;
+}
+
+footer .mapa {
+  margin: 15px 0;
+}
+
+/* Iconos redes sociales: consolidado y optimizado */
+.whatsapp, .tiktok, .facebook, .instagram {
+  position: fixed;
+  bottom: 20px;
+  z-index: 1000;
+}
+
+.whatsapp img,
+.tiktok img,
+.facebook img,
+.instagram img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 8px;
+  display: block;
+}
+
+.whatsapp  { right: 20px; }
+.tiktok    { right: 80px; }
+.facebook  { right: 140px; }
+.instagram { right: 200px; }
+
+@media (max-width: 600px) {
+  .whatsapp img,
+  .tiktok img,
+  .facebook img,
+  .instagram img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .whatsapp  { right: 10px; }
+  .tiktok    { right: 50px; }
+  .facebook  { right: 90px; }
+  .instagram { right: 130px; }
+}
