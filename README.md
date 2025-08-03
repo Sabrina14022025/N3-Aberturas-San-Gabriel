@@ -17,7 +17,7 @@ Sitio en línea
 
 [Ver sitio publicado](https://aberturas-san-gabriel.netlify.app/)
 
-[Repositorio en GitHub](.........)
+[Repositorio en GitHub](https://github.com/Sabrina14022025/SanGabrielFinal)
 
 
 Funcionalidades destacadas
