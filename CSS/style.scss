@@ -684,3 +684,52 @@ footer .mapa {
   transform: scale(1.05);
   outline: none;
 }
+.animar-logo {
+  animation: girar 5s linear infinite;
+}
+
+@keyframes girar {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.precio-descuento {
+  color: var(--color-precio-descuento);
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.logo i {
+  animation: rotate 3s linear infinite;
+}
+
+@keyframes rotate {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.animar {
+  display: inline-block;
+  animation: brillo 2.5s infinite;
+  color: rgb(168, 203, 226); // 
+}
+
+@keyframes brillo {
+  0%, 100% {
+    text-shadow: 0 0 5px #fff, 0 0 10px #57e4e9, 0 0 20px #7aadd4;
+  }
+  50% {
+    text-shadow: 0 0 10px #fff, 0 0 20px #00f7ff, 0 0 30px #00ffff;
+  }
+}
+.logo-izq {
+  width: 100px; // o el tamaño que tengas
+  animation: latido 2s infinite ease-in-out;
+}
+
+@keyframes latido {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}

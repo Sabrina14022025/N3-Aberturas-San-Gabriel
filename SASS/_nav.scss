@@ -1,0 +1,23 @@
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  background-color: var(--color-primario);
+  padding: 10px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: var(--color-blanco);
+  @include boton(var(--color-primario), var(--color-blanco));
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+  background-color: var(--color-hover);
+  border-radius: 5px;
+  transform: scale(1.05);
+  outline: none;
+}

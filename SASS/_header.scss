@@ -1,0 +1,33 @@
+header {
+  background: linear-gradient(to bottom, var(--color-primario), var(--color-secundario));
+  color: var(--color-blanco);
+  padding: 30px 20px 20px;
+  text-align: center;
+  position: relative;
+}
+
+.logo-izq {
+  width: 170px;
+  position: absolute;
+  top: 188px;
+  left: 5px;
+  animation: moverLogo 3s ease-in-out infinite;
+}
+
+header h1 {
+  font-size: 2.2rem;
+}
+.animar {
+  display: inline-block;
+  animation: brillo 2.5s infinite;
+  color: var(--color-primario); // podés cambiar por blanco si lo querés claro
+}
+
+@keyframes brillo {
+  0%, 100% {
+    text-shadow: 0 0 5px #fff, 0 0 10px #005baa, 0 0 20px #005baa;
+  }
+  50% {
+    text-shadow: 0 0 10px #fff, 0 0 20px #007bff, 0 0 30px #007bff;
+  }
+}

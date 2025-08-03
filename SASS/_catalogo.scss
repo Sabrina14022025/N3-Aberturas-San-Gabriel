@@ -1,0 +1,52 @@
+.catalogo {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.catalogo .producto {
+  background: var(--color-blanco);
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.catalogo img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.catalogo h4 {
+  color: var(--color-primario);
+  margin-bottom: 5px;
+}
+
+.catalogo p.precio {
+  color: #444;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.catalogo p.precio del {
+  color: #888;
+  margin-right: 8px;
+  text-decoration: line-through;
+  font-size: 0.95rem;
+}
+
+.precio-descuento {
+  color: red !important;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+
+
+.catalogo p.descripcion {
+  font-size: 0.9rem;
+  color: var(--color-texto-secundario);
+}
+
